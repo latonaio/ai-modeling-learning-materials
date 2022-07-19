@@ -4,16 +4,18 @@
 なお、全てのリソースは、クラウド環境にもそのまま適用することが可能です。  
 
 ### SAP S/4HANAにおけるラトナで開発済みのAPIランタイム
-![]()
+![13-1](./image/13-1.png)
 
 ### SAP C/4HANAにおけるラトナで開発済みのAPIランタイム
-![]()
+![13-2](./image/13-2.png)
 
 ### SAP SuccessFactorsにおけるラトナで開発済みのAPIランタイム
-![]()
+![13-3](./image/13-3.png)
+
 
 ### SAP Sustainability関連におけるラトナで開発済みのAPIランタイム
-![]()
+![13-4](./image/13-4.png)
+
 
 ### SAP API ランタイム(rmq-kube)によるSAP環境との統合について
 ラトナは、SAP APIランタイムに関連して、RabbitMQ からのメッセージを受けてイベントドリブンでAPI ランタイムを実行し、アウトプットとしてRabbitMQへメッセージを出力するよう対応したAPIランタイムを開発しています。  
@@ -24,15 +26,17 @@ RabbitMQを適用したSAP APIランタイムの実行フローは、以下の�
 sap-sql-update-kubeは、RabbitMQからのメッセージを受け取り、イベントドリブンで即座にランタイムを実行します。  
 そして、sap-sql-update-kubeは、渡されたデータとSQLで保持されたデータとの差分がある場合に、SQLテーブルの登録または更新を行います。
 
-![]()
+![13-5](./image/13-5.png)
+
 
 ### SAP S/4HANAにおけるRabbitMQを適用したラトナで開発済みのAPIランタイム
 
-![]()
+![13-6](./image/13-6.png)
+
 
 ### SAP C/4HANAにおけるRabbitMQを適用した ラトナで開発済みのAPIランタイム
 
-![]()
+![13-7](./image/13-7.png)
 
 ### SAP関連のラトナのレポジトリ
 ・[sap-sandbox](https://github.com/latonaio/sap-sandbox)

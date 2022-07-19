@@ -10,22 +10,22 @@ ai-modeling-learning-materials は、NVIDIAの最新のAIモデルやツール�
 * エッジコンピューティング環境でAI推論を行うことができるようになる
 
 ### 目次
-1. AIモデリングについて
-2. モデル・CNN選定
-3. NVIDIA TAO Toolkitによるモデル最適化
-4. TAO Toolkitによる追加学習
-5. TensorRTによるランタイム最適化　
-6. DeepStreamとTensorRTによる推論
-7. パラメータ・環境変数等の設定
-8. Jupyterによるモデル化
-9. AWSでの環境構築
-10. Jetsonへのデプロイ
-11. メッセージングアーキテクチャの適用
-12. Kubernetesラsンタイム適用
-13. マイクロサービスによるレポジトリ化
-14. SAPとのAPI連携統合
-15. Logging ライブラリ
-16. Envoyロードバランサー
+00. AIモデリングについて
+01. モデル・CNN選定
+02. NVIDIA TAO Toolkitによるモデル最適化
+03. TAO Toolkitによる追加学習
+04. TensorRTによるランタイム最適化　
+05. DeepStreamとTensorRTによる推論
+06. パラメータ・環境変数等の設定
+07. Jupyterによるモデル化
+08. AWSでの環境構築
+09. Jetsonへのデプロイ
+10. メッセージングアーキテクチャの適用
+11. Kubernetesラsンタイム適用
+12. マイクロサービスによるレポジトリ化
+13. SAPとのAPI連携統合
+14. Logging ライブラリ
+15. Envoyロードバランサー
 
 
 

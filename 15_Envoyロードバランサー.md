@@ -6,12 +6,13 @@ Envoyは、クラウドネイティブアプリケーション向けに設計さ
 以下の図は、Envoyロードバランサーを用いたエッジコンピューティングアーキテクチャです。
 本アーキテクチャにおいて、Envoyは外部の複数のモバイル端末からのネットワーク通信と、エッジ端末内における指定されたサービスとのネットワーク通信の制御仲介を行なっています。
 
-![]()
+![15-1](./image/15-1.png)
+
 
 ### Envoyの設定
 ラトナのコアリソースである、aion-coreと、aion-coreの周辺環境を整備するaion-core-manifestsでEnvoyの設定を行います。
 
-・[aion-core](https://github.com/latonaio/aion-core)
+・[aion-core](https://github.com/latonaio/aion-core)  
 ・[aion-core-manifests](https://github.com/latonaio/aion-core-manifests)
 
 
